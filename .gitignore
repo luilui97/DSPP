@@ -2,6 +2,7 @@
 datasets/
 output*/
 ckpts/
+save/
 *.pth
 *.t7
 *.png
