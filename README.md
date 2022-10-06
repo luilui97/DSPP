@@ -12,11 +12,11 @@ This repo contains the code of DSPP and other classical KD methods including Fit
 
 We propose Decoupled Spatial Pyramid Pooling Knowledge Distillation (DSPP) to exploit intermediate knowledge by exploring a novel method to define knowledge and decoupling feature map to optimize KD training procedure. A spatial pyramid pooling architecture is applied in our approach for automatically perceiving knowledge, which effectively captures informative knowledge at various scales of feature map. Then a decoupling module is designed to analyze region-level semantic loss between student and teacher network based on the observation that the lower activation regions in feature map plays a more important role in KD, i.e., lower activation regions contain more informative knowledge cues. To align the spatial dimension of teacher and student layer pair, feature map of the student layer is projected to the same dimension of the teacher layer. By taking advantage of spatial pyramid pooling and decoupled region-level loss assignment, the student network can be effectively optimized with more sophisticated supervision. 
 
-![DSPP/overview.png at main · luilui97/DSPP (github.com)](https://github.com/luilui97/DSPP/blob/main/images/overview.png)
+![DSPP/overview.png at main · luilui97/DSPP (github.com)](https://github.com/luilui97/DSPP/blob/main/image/overview.png)
 
 ## Results
 
-![DSPP/results.png at main · luilui97/DSPP (github.com)](https://github.com/luilui97/DSPP/blob/main/images/results.png)
+![DSPP/results.png at main · luilui97/DSPP (github.com)](https://github.com/luilui97/DSPP/blob/main/image/results.png)
 
 ## Running
 
