@@ -5,7 +5,7 @@ ckpts/
 save/
 *.pth
 *.t7
-*.png
+#*.png
 *.jpg
 tmp*.py
 
