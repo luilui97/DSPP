@@ -39,5 +39,5 @@ python train_student.py --path-t ./save/models/resnet32x4_vanilla/ckpt_epoch_240
 
 ## Note
 
-The implementation of compared methods are based on the author-provided code and a open-source benchmark https://github.com/HobbitLong/RepDistiller. 
+The implementation of compared methods are based on the author-provided code and an open-source benchmark https://github.com/HobbitLong/RepDistiller. 
 
