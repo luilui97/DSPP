@@ -41,3 +41,19 @@ python train_student.py --path-t ./save/models/resnet32x4_vanilla/ckpt_epoch_240
 
 The implementation of compared methods are based on the author-provided code and an open-source benchmark https://github.com/HobbitLong/RepDistiller. 
 
+## Citations
+
+If you use this repo, please cite the following paper. 
+
+```
+@InProceedings{Gao_2022_ACCV,
+    author    = {Gao, Lei and Gao, Hui},
+    title     = {Feature Decoupled Knowledge Distillation via Spatial Pyramid Pooling},
+    booktitle = {Proceedings of the Asian Conference on Computer Vision (ACCV)},
+    month     = {December},
+    year      = {2022},
+    pages     = {1109-1123}
+}
+```
+
+
